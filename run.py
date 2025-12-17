@@ -11,9 +11,6 @@ from pathlib import Path
 app_dir = Path(__file__).parent / 'app'
 sys.path.insert(0, str(app_dir))
 
-# Change to app directory
-os.chdir(app_dir)
-
 # Import and run Flask app
 from app import app
 
